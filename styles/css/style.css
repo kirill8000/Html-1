@@ -1,0 +1,165 @@
+body {
+    background-color: #EAEDF1;
+}
+
+div {
+    border-radius: 3px;
+}
+
+button {
+    border-radius: 4px;
+}
+
+li:not(:first-child) {
+    margin-top: 14px;
+}
+
+ul {
+    list-style-image: url(../../images/marker.PNG);
+    margin: 35px 0;
+    padding-left: 29px;
+}
+
+.box {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.block-1 {
+    background-color: white;
+}
+
+.title-block {
+    height: 295px;
+    margin-top: 85px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.name-block {
+    width: 435px;
+}
+
+.contacts-block {
+    width: 825px;
+    margin-left: 90px;
+}
+
+.content-block {
+    margin: 35px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-block {
+    /*align-content: stretch;*/
+    background-color:white;
+    padding: 24px 25px 23px 25px;
+}
+
+.job-block-2 {
+    /*align-content: stretch;*/
+    background-color:#DBE1E8;
+    padding: 24px 25px 23px 25px;
+}
+
+.job-block:not(:first-child) {
+    margin-top: 35px;
+}
+
+.job-block-2:not(:first-child) {
+    margin-top: 35px;
+}
+
+.job-list {
+    color: #33495F;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.job-name {
+    color: #33495F;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 25px;
+}
+
+.job-name-2 {
+    color: #33495F;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 23px;
+}
+
+.job-desc {
+    color: #9EA7B4;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.job-desc-2 {
+    color: #7A8698;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.job-pos {
+    color: #04BCA6;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 21px;
+}
+
+.job-pos-2 {
+    color: #00B9D8;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 19px;
+}
+
+.marker-img {
+    margin-right: 7px;
+}
+
+.job-footer {
+    color: #9EA7B4;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    vertical-align: middle;
+}
+
+.job-footer-2 {
+    color: #33495F;
+    font-size: 14px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    vertical-align: middle;
+}
+
+.job-span {
+    display: inline-flex;
+    align-items: center;
+}
+
+.site-button {
+    color: white;
+    font-size: 15px;
+    border: 0px;
+    height: 38px;
+    width: 218px;
+}
+
+.job-site-button {
+    background: #16C4EC;
+}
+
+.job-site-button-2 {
+    background: #10CDC1;
+}
+
+.dot-separator {
+    margin: 32px 0;
+    color: #C2CAD4;
+}
