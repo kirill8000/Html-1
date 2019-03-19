@@ -29,6 +29,14 @@ ul {
     background-color: white;
 }
 
+.block-2 {
+    background-color:#DBE1E8;
+}
+
+.left-block {
+    width: 635px;
+}
+
 .title-block {
     height: 295px;
     margin-top: 85px;
@@ -52,23 +60,8 @@ ul {
 }
 
 .job-block {
-    /*align-content: stretch;*/
-    background-color:white;
+    margin-bottom: 35px;
     padding: 24px 25px 23px 25px;
-}
-
-.job-block-2 {
-    /*align-content: stretch;*/
-    background-color:#DBE1E8;
-    padding: 24px 25px 23px 25px;
-}
-
-.job-block:not(:first-child) {
-    margin-top: 35px;
-}
-
-.job-block-2:not(:first-child) {
-    margin-top: 35px;
 }
 
 .job-list {
@@ -125,7 +118,6 @@ ul {
     display: flex;
     justify-content: space-between;
     font-family: 'Lato', sans-serif;
-    vertical-align: middle;
 }
 
 .job-footer-2 {
@@ -135,7 +127,6 @@ ul {
     display: flex;
     justify-content: space-between;
     font-family: 'Lato', sans-serif;
-    vertical-align: middle;
 }
 
 .job-span {
@@ -162,4 +153,31 @@ ul {
 .dot-separator {
     margin: 32px 0;
     color: #C2CAD4;
+}
+
+.name-block .card  {
+    align-items: center;
+    display: flex;
+    vertical-align: middle;
+    margin-top: 34px;
+}
+
+.name-block .avatar{
+    margin-left: 26px;
+}
+
+.name-block .desc-block {
+    margin-left: 43px;
+}
+
+.name-block .desc-block .name-text {
+    font-size: 27px;
+    font-family: 'Lato', sans-serif;
+}
+
+.name-block .desc-block .city-text {
+    margin-top: 3px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #586879;
 }
