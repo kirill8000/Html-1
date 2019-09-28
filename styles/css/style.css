@@ -1,3 +1,5 @@
+
+
 body {
     background-color: #EAEDF1;
 }
@@ -49,6 +51,7 @@ ul {
 }
 
 .contacts-block {
+    display: flex;
     width: 825px;
     margin-left: 90px;
 }
@@ -104,6 +107,12 @@ ul {
 
 .job-pos-2 {
     color: #00B9D8;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 19px;
+}
+
+.job-pos-3 {
+    color: #04BCA6;
     font-family: 'Signika Negative', sans-serif;
     font-size: 19px;
 }
@@ -172,7 +181,7 @@ ul {
 
 .name-block .desc-block .name-text {
     font-size: 27px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Signika', sans-serif;
 }
 
 .name-block .desc-block .city-text {
@@ -181,3 +190,87 @@ ul {
     font-family: 'Lato', sans-serif;
     color: #586879;
 }
+
+.timeline {
+    position: relative;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #DBE1E8;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+  
+.left::after {
+    content: ' ';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #DBE1E8;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -5%;
+    border-radius: 50%;
+}
+
+.marker {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: -5px;
+}
+
+
+.star-ratings-sprite {
+    background: url("../../images/star-rating-sprite.png") repeat-x;
+    font-size: 0;
+    height: 21px;
+    line-height: 0;
+    overflow: hidden;
+    text-indent: -999em;
+    width: 110px;
+}
+
+.star-ratings-sprite-rating {
+    background: url("../../images/star-rating-sprite.png") repeat-x;
+    background-position: 0 100%;
+    float: left;
+    height: 21px;
+    display:block;
+}
+.contacts-block {
+    display: flex;
+    width: 825px;
+    margin-left: 90px;
+}
+
+.contact-desc {
+    flex: 70%;
+    width: 410px;
+    margin: 45px 30px;
+}
+
+.contact-desc .header {
+    color: #33495F;
+    font-size: 38px;
+    font-family: 'Signika', sans-serif;
+}
+
+.contact-desc .desc {
+    padding-top: 10px;
+    color: #33495F;
+    font-size: 20px;
+    font-family: 'Signika Negative', sans-serif;
+    line-height: 30px;
+}
+
