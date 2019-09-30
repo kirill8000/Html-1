@@ -47,6 +47,7 @@ ul {
 }
 
 .name-block {
+    position: relative;
     width: 435px;
 }
 
@@ -255,7 +256,6 @@ ul {
 }
 
 .contact-desc {
-    flex: 70%;
     width: 410px;
     margin: 45px 30px;
 }
@@ -274,3 +274,88 @@ ul {
     line-height: 30px;
 }
 
+.share {
+    width: 410px;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+.social {
+    display: inline-block;
+    width: 65px;
+    height: 40px;
+    vertical-align: middle;
+    background-color: #bdc3c7;
+    background: url("../../images/social.png") no-repeat;
+    background-position-y: -10px;
+    background-position-x: -5px;
+}
+
+.social-2 {
+    background-position: -70px -10px;
+}
+
+.social-3 {
+    background-position: -140px -10px;
+}
+
+.social-4 {
+    background-position: -210px -10px;
+}
+
+.social-5 {
+    background-position: -280px -10px;
+}
+
+.social-6 {
+    background-position: -350px -10px;
+}
+
+.contacts {
+    margin-left: 45px;
+    margin-top: 105px;
+    font-size: 24px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.web {
+    padding-top: 15px;
+    color: #FA5351;
+    letter-spacing: 1px;
+    align-content: center;
+}
+
+.contacts .line {
+    height: 1px;
+    background-color: black;
+    margin-top: 30px;
+}
+
+.card-icons {
+    width: inherit;
+    height: 80px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.card-icon {
+    width: 25%;
+    height: inherit;
+    border-radius: 0px;
+    float: left;
+}
+
+.card-icon-1 {
+    background-color: #16C4EC; 
+}
+
+.card-icon-2 {
+    background-color: #FA5351; 
+}
+
+.card-icon-3 {
+    background-color: #10CDC1; 
+}
+
+.card-icon-4 {
+    background-color: #33495F; 
+}
