@@ -359,3 +359,110 @@ ul {
 .card-icon-4 {
     background-color: #33495F; 
 }
+
+.media {
+    height: 400px;
+    background: white;
+    border-radius: 0px;
+    padding-top: 17px;
+}
+
+.media-types {
+    margin-left: 17px;
+    height: 100px;
+}
+
+.media-type {
+    border-radius: 0px;
+    float: left;
+    width: 77px;
+    margin: 0 auto;
+}
+
+.media-type:not(:first-child) {
+    margin-left: 25px;
+}
+
+.media-icon {
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+}
+
+.media-title {
+    padding-top: 10px;
+    font-family: 'Signika', sans-serif;
+    font-size: 14px;
+    bottom: 0;
+    text-align: center;
+    color: #33495F;
+}
+
+.media-type:nth-child(odd) .media-icon {
+    background-color: #10CDC1;
+}
+.media-type:nth-child(even) .media-icon {
+    background-color: #16C4EC;
+}
+
+.progress-bars {
+    padding-left: 20px;
+    margin-top: 45px;
+}
+
+progress
+{
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    left: -777px;
+}
+
+.progress
+{
+    font: 12px Arial, Tahoma, sans-serif;
+    width: 270px;
+}
+
+.progress-bar
+{
+    overflow: hidden;
+    background: #10CDC1;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.progress-value
+{
+    position: relative;
+    color: white;
+    line-height: 18px;
+    margin-left: 197px;
+    width: 38px;
+    height: 18px;
+    background-color: #34495E;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.progress-value::after {
+    content: ''; 
+    position: absolute;
+    border: 4px solid transparent; 
+    border-top: 4px solid #34495E;
+    left: 14px; 
+    bottom: -8px;
+}
+
+.progress-bg
+{
+    background: #e6e9ed;
+    position: relative;
+    height: 15px;
+    border-radius: 6px;
+    overflow: hidden;
+}
