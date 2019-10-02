@@ -361,7 +361,7 @@ ul {
 }
 
 .media {
-    height: 400px;
+    height: 390px;
     background: white;
     border-radius: 0px;
     padding-top: 17px;
@@ -406,8 +406,9 @@ ul {
 }
 
 .progress-bars {
+    display: flex;
     padding-left: 20px;
-    margin-top: 45px;
+    margin-top: 40px;
 }
 
 progress
@@ -421,27 +422,90 @@ progress
 
 .progress
 {
+    margin-top: 14px;
     font: 12px Arial, Tahoma, sans-serif;
     width: 270px;
+}
+
+.progress-left {
+    background: #10CDC1;
+}
+
+.progress-right {
+    background: #16C4EC;
 }
 
 .progress-bar
 {
     overflow: hidden;
-    background: #10CDC1;
-    width: 80%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
 }
 
+.progress-bar-1 {
+    width: 80%;
+}
+
+.progress-bar-2 {
+    width: 55%;
+}
+
+.progress-bar-3 {
+    width: 95%;
+}
+
+.progress-bar-4 {
+    width: 85%;
+}
+
+.progress-bar-5 {
+    width: 80%;
+}
+
+.progress-bar-6 {
+    width: 75%;
+}
+
+.progress-value-1 {
+    margin-left: 125px;
+}
+
+.progress-value-2 {
+    margin-left: 62px;
+}
+
+.progress-value-3 {
+    margin-left: 165px;
+}
+
+.progress-value-4 {
+    margin-left: 135px;
+}
+
+.progress-value-5 {
+    margin-left: 40px;
+}
+
+.progress-value-6 {
+    margin-left: 72px;
+}
+
+.progress-value-7 {
+    margin-left: 65px;
+}
+
+.progress-value-8 {
+    margin-left: 85px;
+}
+
+
 .progress-value
 {
     position: relative;
     color: white;
     line-height: 18px;
-    margin-left: 197px;
     width: 38px;
     height: 18px;
     background-color: #34495E;
@@ -465,4 +529,10 @@ progress
     height: 15px;
     border-radius: 6px;
     overflow: hidden;
+}
+
+.progress-title {
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    color: #34495E;
 }
